@@ -1,7 +1,18 @@
-!important 
+.box
 {
+    width: 900px;
+    float: right;
+    border:1px solid black;
 
 }
-* {
-    
+.box ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+
+}
+.box ul li a {
+    text-decoration: none;
+    color: gray;
 }
