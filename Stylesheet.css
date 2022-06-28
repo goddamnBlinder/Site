@@ -1,18 +1,7 @@
-.box
-{
-    width: 900px;
-    float: right;
-    border:1px solid black;
+head 
+{   aspect-ratio: 1/1;
+    font-size: 14px;
+    font-family: fantasy;
+    color: red;
 
-}
-.box ul li {
-    width: 120px;
-    float: left;
-    margin: 10px auto;
-    text-align: center;
-
-}
-.box ul li a {
-    text-decoration: none;
-    color: gray;
 }
