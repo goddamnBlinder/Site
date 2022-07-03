@@ -54,13 +54,13 @@ h1 {
     border-radius: 10px;
     border: 2px dotted darkolivegreen;
     color: azure;
-    background-color: #333;
     opacity: .7;
     font-size: 1.7rem;
     padding-bottom: 1em;
   
 }
-.card-front .card-back{ 
+.card-front { 
+    background-image: url(Img1.jpg);
 }
 span, p{
   
