@@ -52,7 +52,6 @@ h1 {
     justify-content: center;
     backface-visibility: hidden;
     border-radius: 10px;
-    border: 2px dotted darkolivegreen;
     color: azure;
     opacity: .7;
     font-size: 1.7rem;
@@ -60,7 +59,7 @@ h1 {
   
 }
 .card-front { 
-    background-image: url(Img1.jpg);
+    background-image:;
 }
 span, p{
   
@@ -82,5 +81,4 @@ span, p{
 .card:hover .inner-box{
     transform: rotateY(-.5turn);
   
-
 }
