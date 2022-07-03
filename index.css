@@ -37,8 +37,9 @@ h1 {
     height: 100%;
     text-align: center;
     border-radius: 10px;
-    transition: transform 1s;
+    transition: transform 2s;
     transform-style: preserve-3d;
+    transform: translateZ(200px);
   
 
 }
@@ -51,14 +52,16 @@ h1 {
     justify-content: center;
     backface-visibility: hidden;
     border-radius: 10px;
+    border: 2px dotted darkolivegreen;
     color: azure;
     background-color: #333;
     opacity: .7;
+    font-size: 1.7rem;
+    padding-bottom: 1em;
+  
 }
-.card-front {
-    /* background: rgba(221, 130, 11, 0.73); */
+.card-front .card-back{ 
 }
-
 span, p{
   
     display: inline-block;
@@ -67,7 +70,8 @@ span, p{
     margin-top: 160px;
     padding: 12px;
     border-radius: 4px;
-    z-index: 10px;
+    z-index: 1000px;
+  
  
 }
 .card-back {
@@ -77,5 +81,6 @@ span, p{
 }
 .card:hover .inner-box{
     transform: rotateY(-.5turn);
+  
 
 }
