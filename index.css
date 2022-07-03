@@ -56,14 +56,11 @@ h1 {
   
 }
 .card-front { 
-    background-image:linear-gradient(rgba(0,0,0,0.5), url(coffee.jpg));
+    background-image:url(coffee.jpg);
+    background-position: center;
     background-size: cover;
+    opacity: 0.7;
     
-}
-span {
-    font-size: 1.2rem;
-    font-family: Arial;
-    transform: translateZ(200px);
 }
 span, p{
   
@@ -74,6 +71,7 @@ span, p{
     padding: 12px;
     border-radius: 4px;
     z-index: 7;
+    color: ;
 
 }
 
