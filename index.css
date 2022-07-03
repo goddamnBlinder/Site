@@ -39,27 +39,31 @@ h1 {
     border-radius: 10px;
     transition: transform 2s;
     transform-style: preserve-3d;
-    transform: translateZ(200px);
+    transform: translateZ(20rem);
+    z-index: 7;
   
 
 }
 .card-front, .card-back {
     position: absolute;
     width: 350px;
-    margin: auto;
     aspect-ratio: 1/1;
     text-align: center;
     justify-content: center;
     backface-visibility: hidden;
-    border-radius: 10px;
-    color: azure;
-    opacity: .7;
-    font-size: 1.7rem;
+    border-radius: 12%;
     padding-bottom: 1em;
   
 }
 .card-front { 
-    background-image:;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), url(coffee.jpg));
+    background-size: cover;
+    
+}
+span {
+    font-size: 1.2rem;
+    font-family: Arial;
+    transform: translateZ(200px);
 }
 span, p{
   
@@ -69,10 +73,10 @@ span, p{
     margin-top: 160px;
     padding: 12px;
     border-radius: 4px;
-    z-index: 1000px;
-  
- 
+    z-index: 7;
+
 }
+
 .card-back {
     background: #333;
     opacity: 0.7;
