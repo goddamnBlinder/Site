@@ -51,7 +51,9 @@ h1 {
     justify-content: center;
     backface-visibility: hidden;
     border-radius: 10px;
-    color: #000;
+    color: azure;
+    background-color: #333;
+    opacity: .7;
 }
 .card-front {
     /* background: rgba(221, 130, 11, 0.73); */
@@ -63,14 +65,14 @@ span, p{
     width: 100px;
     padding: 14px 0;
     margin-top: 160px;
-    /* border: 12px solid orangered;  */
     padding: 12px;
     border-radius: 4px;
     z-index: 10px;
-    /* background: #000; */
+ 
 }
 .card-back {
-    /* background: orchid; */
+    background: #333;
+    opacity: 0.7;
     transform: rotateY(.5turn);
 }
 .card:hover .inner-box{
