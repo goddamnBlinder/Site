@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 .container {
   width: 100%;
@@ -32,6 +33,47 @@ h1 {
 }
 .inner-box {
     position: relative;
-    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  
+
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 350px;
+    margin: auto;
+    aspect-ratio: 1/1;
+    text-align: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    color: #000;
+}
+.card-front {
+    /* background: rgba(221, 130, 11, 0.73); */
+}
+
+span, p{
+  
+    display: inline-block;
+    width: 100px;
+    padding: 14px 0;
+    margin-top: 160px;
+    /* border: 12px solid orangered;  */
+    padding: 12px;
+    border-radius: 4px;
+    z-index: 10px;
+    /* background: #000; */
+}
+.card-back {
+    /* background: orchid; */
+    transform: rotateY(.5turn);
+}
+.card:hover .inner-box{
+    transform: rotateY(-.5turn);
 
 }
