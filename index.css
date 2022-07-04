@@ -53,11 +53,41 @@ h1 {
   
 }
 .card-front { 
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;   
+}
+.front-1 {
     background:url(coffee.jpg);
     background-position: center;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.7;   
+
+}
+.front-2{
+    background:url(churros.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;   
     
+}
+.front-3{
+    background:url(spaghetti.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;   
+}
+.front-4{
+    background:url(olive-oil.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;   
+}
+.front-5{
+    background:url(pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;   
 }
 span, p{
   
@@ -74,12 +104,13 @@ span, p{
     justify-content: center;
     transition: transform 2s;
 
-    
 
 }
 
 .card-back {
-    background: #1c1f54;
+    background: url(Img1.jpg);
+    background-position: center;
+    background-size: cover;
     transform: rotateX(180deg);
 }
 .card:hover .inner-box{
@@ -88,5 +119,16 @@ span, p{
 }
 
 .card:hover span{
-    transform: translateY(30rem);
+    transform: translateY(39rem);
+}
+.box1{
+    margin: 0;
+    width: 25rem;
+    aspect-ratio: 1/1;
+    background: #1c1f54;
+    border: 12px solid azure;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: center;
+    padding: 
 }
