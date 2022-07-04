@@ -122,13 +122,15 @@ span, p{
     transform: translateY(39rem);
 }
 .box1{
-    margin: 0;
-    width: 25rem;
+    margin: auto;
+    width: 30rem;
     aspect-ratio: 1/1;
-    background: #1c1f54;
+    background: #333;
     border: 12px solid azure;
-    border-radius: 15%;
+    border-radius: 2%;
     text-align: center;
     justify-content: center;
-    padding: 
+    padding: 12rem 4rem;
+    color: aliceblue;
+    font-family: monospace;
 }
