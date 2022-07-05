@@ -136,8 +136,23 @@ span, p{
 }
 .box2{
     margin: auto;
-    width: 30rem;
-    aspect-ratio: 1/1;
+    width: 70rem;
+    aspect-ratio: 18/9;
+    background: #333;
+    border: 12px solid azure;
+    border-radius: 2%;
+    text-align: center;
+    justify-content: center;
+    padding: 12rem 4rem;
+    color: aliceblue;
+    font-family: monospace;
+    float: left;
+}
+.box3{
+    margin: auto;
+    width: 60rem;
+    aspect-ratio: 4/3;
+    float: right;
     background: #333;
     border: 12px solid azure;
     border-radius: 2%;
@@ -147,16 +162,16 @@ span, p{
     color: aliceblue;
     font-family: monospace;
 }
-.box3{
+
+.box5{
     margin: auto;
-    width: 30rem;
     aspect-ratio: 1/1;
-    background: #333;
+    float: right;
+    background:none;
     border: 12px solid azure;
     border-radius: 2%;
     text-align: center;
     justify-content: center;
     padding: 12rem 4rem;
-    color: aliceblue;
     font-family: monospace;
 }
