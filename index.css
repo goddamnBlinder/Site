@@ -134,3 +134,29 @@ span, p{
     color: aliceblue;
     font-family: monospace;
 }
+.box2{
+    margin: auto;
+    width: 30rem;
+    aspect-ratio: 1/1;
+    background: #333;
+    border: 12px solid azure;
+    border-radius: 2%;
+    text-align: center;
+    justify-content: center;
+    padding: 12rem 4rem;
+    color: aliceblue;
+    font-family: monospace;
+}
+.box3{
+    margin: auto;
+    width: 30rem;
+    aspect-ratio: 1/1;
+    background: #333;
+    border: 12px solid azure;
+    border-radius: 2%;
+    text-align: center;
+    justify-content: center;
+    padding: 12rem 4rem;
+    color: aliceblue;
+    font-family: monospace;
+}
