@@ -103,8 +103,6 @@ span, p{
     text-align: center;
     justify-content: center;
     transition: transform 2s;
-
-
 }
 
 .card-back {
@@ -136,7 +134,7 @@ span, p{
 }
 .box2{
     margin: auto;
-    width: 70rem;
+    width: 50%;
     aspect-ratio: 18/9;
     background: #333;
     border: 12px solid azure;
@@ -150,28 +148,32 @@ span, p{
 }
 .box3{
     margin: auto;
-    width: 60rem;
-    aspect-ratio: 4/3;
-    float: right;
-    background: #333;
-    border: 12px solid azure;
-    border-radius: 2%;
-    text-align: center;
-    justify-content: center;
-    padding: 12rem 4rem;
-    color: aliceblue;
     font-family: monospace;
 }
 
 .box5{
     margin: auto;
-    aspect-ratio: 1/1;
+    width: 50%;
+    height: 50px;
+    aspect-ratio: 12/1;
     float: right;
     background:none;
-    border: 12px solid azure;
+    border: 6px solid chocolate;
     border-radius: 2%;
     text-align: center;
     justify-content: center;
     padding: 12rem 4rem;
     font-family: monospace;
+}
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+}
+.Title {
+ font-size: 2rem;
+ font-weight: bolder;
+ margin-bottom: 2rem;
 }
