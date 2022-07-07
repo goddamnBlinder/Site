@@ -168,10 +168,26 @@ span, p{
 .grid {
     max-width: 100%;
     margin: 0 auto;
+    gap: 1em;
+    display: column;
+    columns:3;
+  
+}
+@supports ( grid-template-rows: masonry) {
+    .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: masonry;
+    } 
 }
+.grid > * {
+    break-inside: avoid;
+    margin-bottom: 10em;
+}
+.featured {
+      grid-column: span 2;
+}
+
 .Title {
  font-size: 2rem;
  font-weight: bolder;
